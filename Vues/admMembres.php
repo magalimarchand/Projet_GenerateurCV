@@ -60,7 +60,7 @@
 										<th colspan="2">Courriel</th>
 										<th colspan="2">Nom</th>
 										<th colspan="2">Prenom</th>
-									</td>
+									</tr>
 									<tbody>												
 										<?php 
 										while ($listeMemb->next()){
