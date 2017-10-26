@@ -1,0 +1,178 @@
+
+html,body,div,span,h1,h2,h3,h4,p,em,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,form,table,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,footer,header,menu,nav,section {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+html, body {background: white; font-family: Bookman Old Style, helvetica, sans-serif; font-size: 16px; color: #222;}
+
+.bodycolor{
+	background:#b8cdef;
+}
+
+.clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+}
+
+.mainDetails {
+	margin: 0 auto;
+	padding: 25px 35px;
+	border-bottom: 12px solid #b6bcc4;
+	background: #ffffff;	
+}
+
+#name h1 {
+	text-indent: 150px;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	font-weight: 450;
+	color: #555;
+	margin-bottom:20px;
+}
+
+#contactDetails ul {
+	text-indent: 20px;
+	font-size: 0.9em;
+	color: #444;
+	margin-top: 10px;
+	list-style-type: none;
+}
+
+#cv {
+	width: 90%;
+	max-width: 800px;
+	background: #ffffff;
+	margin: 20px auto;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+section {
+	border-top: 3px solid #b6bcc4;
+	padding: 10px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.sectionTitle {
+	margin-top:10px;
+	margin-bottom:15px;
+}
+
+.sectionContent {
+	float: right;
+	width: 90%;
+}
+
+.sectionTitle h1 {
+	text-transform: uppercase;
+	font-family: georgia, helvetica;
+	font-style: italic;
+	font-size: 1.3em;
+	color: #9ca1a8;
+}
+
+.sectionContent h2 {
+	font-size: 1.3em;
+
+}
+
+.subDetails {
+	font-size: 0.9em;
+	font-style: italic;
+	margin-bottom: 10px;
+	color: #777;
+}
+
+.keySkills {
+	list-style-type: none;
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	font-size: 1,2em;
+
+}
+
+.keySkills ul li {
+	margin-bottom: 0;
+}
+
+
+@media all and (max-width: 601px) {
+	#cv {
+		width: 95%;
+		margin: 0 auto;
+		min-width: 280px;
+	}
+
+	
+	#name, #contactDetails {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.sectionTitle, .sectionContent {
+		float: none;
+		width: 100%;
+	}
+	
+	.sectionTitle {
+		margin-left: -2px;
+		font-size: 1.25em;
+	}
+	
+	.keySkills {
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.mainDetails {
+		padding: 15px 15px;
+	}
+	
+	section {
+		padding: 10px 0 0;
+	}
+	
+	#mainArea {
+		padding: 0 25px;
+	}
+
+	
+	.keySkills {
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
+	}
+	
+	#name h1 {
+		line-height: .8em;
+		margin-bottom: 4px;
+	}
+}
+
+@media print {
+    #cv {
+        width: 100%;
+    }
+}
