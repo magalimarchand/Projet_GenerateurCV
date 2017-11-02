@@ -12,7 +12,7 @@ Les deux sites sont construits en responsive design.
 
 Nous avons utilisé HTML, CSS, Bootstrap, PHP, Javascript, et MySQL avec un serveur local Apache (uWamp).
 
-Vous trouverez un dossier "2 templates" avec des aperçus visuels de nos deux sites web de départ. 
+Vous trouverez un dossier "2Templates" avec des aperçus visuels de nos deux sites web de départ. 
 
 
 
